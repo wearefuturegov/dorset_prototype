@@ -31,6 +31,7 @@ strong {
 .email {
   header#global-header {
     background-image: url('../images/google_header.png');
+    background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
     height: 205px;
@@ -40,6 +41,9 @@ strong {
   }
   h1, p, strong {
     font-size: 14px;
+  }
+  #content {
+    margin-top: 100px;
   }
 }
 

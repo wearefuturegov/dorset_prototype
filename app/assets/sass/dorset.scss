@@ -36,3 +36,8 @@ html {
 .button:hover, .button:focus {
   background-color: #000;
 }
+
+#global-cookie-message {
+  background-color: #fff;
+  display: none !important;
+}

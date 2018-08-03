@@ -28,6 +28,21 @@ strong {
   }
 }
 
+.email {
+  header#global-header {
+    background-image: url('../images/google_header.png');
+    background-size: 100%;
+    width: 100%;
+    height: 205px;
+    .header-wrapper {
+      display: none;
+    }
+  }
+  h1, p, strong {
+    font-size: 14px;
+  }
+}
+
 #global-header-bar {
   display: none;
 }

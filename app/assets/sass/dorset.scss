@@ -41,6 +41,11 @@ strong {
   background-color: #000;
 }
 
+#global-cookie-message {
+  background-color: #fff;
+  display: none !important;
+}
+
 .govuk-check-your-answers > * > * {
   border-bottom: none;
 }

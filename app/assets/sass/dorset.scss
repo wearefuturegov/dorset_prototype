@@ -1,0 +1,38 @@
+html {
+  background-color: #fff;
+}
+
+#footer {
+  display: none;
+  border: none;
+}
+
+#global-header {
+  background-color: #fff;
+  .header-wrapper {
+    background-color: #fff;
+  }
+  #logo {
+    background-image: url('../images/logo.svg');
+    background-size: 100%;
+    width: 100px;
+    height: 2em;
+    text-indent: -9999px;
+    img {
+      display: none;
+    }
+  }
+}
+
+#global-header-bar {
+  display: none;
+}
+
+.button {
+  background-color: #49d5f0;
+  color: #000;
+}
+
+.button:hover, .button:focus {
+  background-color: #000;
+}

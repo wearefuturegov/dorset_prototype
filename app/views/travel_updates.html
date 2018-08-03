@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Travel updates
+{% endblock %}
+
+{% block content %}
+<main id="content" role="main">
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">
+        Get travel updates straight to your phone
+      </h1>
+
+      <form action="/thank_you" method="post" class="form">
+        <div class="form-group">
+          <fieldset>
+
+            <legend>
+              <h1 class="heading-medium">
+                Travel updates
+              </h1>
+            </legend>
+
+            <div class="multiple-choice">
+              <input id="nationalities-british" name="nationalities" type="checkbox" value="British">
+              <label for="nationalities-british">I would like travel updates</label>
+            </div>
+
+          </fieldset>
+        </div>
+          <div class="form-group">
+            <input type="submit" class="button" value="Continue">
+          </div>
+      </form>
+
+    </div>
+  </div>
+</main>
+{% endblock %}

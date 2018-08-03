@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Travel Opt In
+{% endblock %}
+
+{% block content %}
+<main id="content" role="main">
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">
+        Check to opt in for travel
+      </h1>
+
+      <form action="/update_my_details" method="post" class="form">
+        <div class="form-group">
+          <fieldset>
+
+            <legend>
+              <h1 class="heading-medium">
+                Check to opt in for travel
+              </h1>
+            </legend>
+
+            <div class="multiple-choice">
+              <input id="nationalities-british" name="nationalities" type="checkbox" value="British">
+              <label for="nationalities-british">I would like to opt in for travel</label>
+            </div>
+
+          </fieldset>
+        </div>
+          <div class="form-group">
+            <input type="submit" class="button" value="Continue">
+          </div>
+      </form>
+
+    </div>
+  </div>
+</main>
+{% endblock %}

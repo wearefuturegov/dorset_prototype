@@ -2,6 +2,10 @@ html {
   background-color: #fff;
 }
 
+strong {
+  font-weight: 600;
+}
+
 #footer {
   display: none;
   border: none;
@@ -33,6 +37,10 @@ html {
   color: #000;
 }
 
-.button:hover, .button:focus {
+.button:hover, .button:focus, .button:visited {
   background-color: #000;
+}
+
+.govuk-check-your-answers > * > * {
+  border-bottom: none;
 }
